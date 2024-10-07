@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Category</title>
+    <link rel="stylesheet" href="css/navbar.css"> 
+    <link rel="stylesheet" href="css/courseCategory.css"> 
+</head>
+<body class="navbar-body">
+    <div id="navbar"></div>
+
+   
+    <div class="courseCategory-outer-container">
+
+        <div class="courseCategory-container">
+        <!-- Categories -->
+            <div class="courseCategory-left">
+                <div class="courseCategory-categories">
+                    <h2 class="courseCategory-font">Topics</h2>
+                    <label><input class="courseCategory-font" type="checkbox" name="category" value="frontend"> Frontend</label><br>
+                    <label><input class="courseCategory-font" type="checkbox" name="category" value="backend"> Backend</label><br>
+                    <label><input class="courseCategory-font" type="checkbox" name="category" value="database"> Database</label><br>
+                    <label><input class="courseCategory-font" type="checkbox" name="category" value="blockchain"> Blockchain</label><br>
+                    <h2 class="courseCategory-font">Filter</h2>
+                    <label><input class="courseCategory-font" type="checkbox" name="filter" value="free"> Free</label><br>
+                    <label><input class="courseCategory-font" type="checkbox" name="filter" value="paid"> Paid</label><br>
+                </div>
+            </div>
+
+            <!-- Course Section -->
+            <div class = "courseCategory-right">
+                <!-- Search Bar -->
+                <div class="courseCategory-search-bar">
+                    <p class="courseCategory-font">Cari Kursus</p>
+                    <input type="text" id="courseCategory-searchInput" placeholder="Search for courses...">
+                </div>
+
+                <!-- Courses -->
+                <h2 class="courseCategory-font">Available Courses</h2> 
+                <div class="courseCategory-grid">
+                     
+                    <a class="courseCategory-course-item" data-category="frontend" data-price="free" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Dasar-Dasar HTML</h3>
+                        <p class="courseCategory-font">Pelajari struktur halaman web menggunakan HTML. Kursus ini akan mengajarkan semua elemen dasar HTML yang penting untuk membangun halaman web.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">4 Minggu</span>
+                            <span class="courseCategory-level">Pemula</span>
+                            <span class="courseCategory-price">Gratis</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="frontend" data-price="paid" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Esensial CSS</h3>
+                        <p class="courseCategory-font">Pelajari cara membuat halaman web Anda lebih menarik dengan CSS. Kursus ini membahas semua konsep penting untuk meningkatkan daya tarik visual situs web Anda.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">4 Minggu</span>
+                            <span class="courseCategory-level">Pemula</span>
+                            <span class="courseCategory-price">Berbayar</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="frontend" data-price="free" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Fundamental JavaScript</h3>
+                        <p class="courseCategory-font">Buat halaman web interaktif dengan JavaScript. Kursus ini menjelaskan dasar-dasar pemrograman JavaScript untuk membuat aplikasi web yang dinamis.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">6 Minggu</span>
+                            <span class="courseCategory-level">Menengah</span>
+                            <span class="courseCategory-price">Gratis</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="frontend" data-price="paid" href="courseDetail.html">
+                        <h3 class="courseCategory-font">PHP untuk Pemula</h3>
+                        <p class="courseCategory-font">Bangun aplikasi web dinamis menggunakan PHP. Dalam kursus ini, Anda akan mempelajari bagaimana membuat skrip PHP, mengelola database.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">5 Minggu</span>
+                            <span class="courseCategory-level">Pemula</span>
+                            <span class="courseCategory-price">Berbayar</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="backend" data-price="free" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Dasar-Dasar Golang</h3>
+                        <p class="courseCategory-font">Mulailah dengan bahasa pemrograman Go. Kursus ini mencakup dasar-dasar Go serta cara menerapkan bahasa yang efisien ini dalam proyek backend Anda.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">6 Minggu</span>
+                            <span class="courseCategory-level">Menengah</span>
+                            <span class="courseCategory-price">Gratis</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="backend" data-price="paid" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Node.js untuk Pengembang</h3>
+                        <p class="courseCategory-font">Kembangkan aplikasi yang dapat di-scale menggunakan Node.js dan membangun aplikasi backend.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">5 Minggu</span>
+                            <span class="courseCategory-level">Menengah</span>
+                            <span class="courseCategory-price">Berbayar</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="database" data-price="free" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Mastery MySQL</h3>
+                        <p class="courseCategory-font">Pelajari cara mengelola database menggunakan MySQL. Kursus ini akan membantu Anda memahami pengelolaan data untuk aplikasi web Anda.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">4 Minggu</span>
+                            <span class="courseCategory-level">Pemula</span>
+                            <span class="courseCategory-price">Gratis</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="database" data-price="paid" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Esensial MongoDB</h3>
+                        <p class="courseCategory-font">Pahami konsep database NoSQL dengan MongoDB. Anda akan belajar bagaimana menangani data tidak terstruktur dan membangun aplikasi berbasis data yang skalabel.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">5 Minggu</span>
+                            <span class="courseCategory-level">Menengah</span>
+                            <span class="courseCategory-price">Berbayar</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="blockchain" data-price="free" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Pengembangan Ethereum</h3>
+                        <p class="courseCategory-font">Bangun aplikasi terdesentralisasi di atas jaringan Ethereum. Kursus ini mengajarkan teknologi blockchain dan smart contracts.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">6 Minggu</span>
+                            <span class="courseCategory-level">Lanjutan</span>
+                            <span class="courseCategory-price">Gratis</span>
+                        </div>
+                    </a>
+                    
+                    <a class="courseCategory-course-item" data-category="blockchain" data-price="paid" href="courseDetail.html">
+                        <h3 class="courseCategory-font">Dasar-Dasar Hyperledger</h3>
+                        <p class="courseCategory-font">Jelajahi solusi blockchain perusahaan dengan Hyperledger. Anda akan belajar mengimplementasikan solusi blockchain yang aman dan efisien.</p>
+                        <div class="courseCategory-info">
+                            <span class="courseCategory-duration">5 Minggu</span>
+                            <span class="courseCategory-level">Lanjutan</span>
+                            <span class="courseCategory-price">Berbayar</span>
+                        </div>
+                    </a>
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+
+    </div>
+
+    <script src="./js/navbar-auth.js"></script> 
+    <script src="./js/courseCategory.js"></script> 
+    <script src="./js/footer.js"></script>
+</body>
+</html>

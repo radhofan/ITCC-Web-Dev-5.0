@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Quiz</title>
+    <link rel="stylesheet" href="css/courseQuiz.css"> 
+</head>
+<body class="navbar-body">
+
+    <div id="navbar"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div id="question-counter">Question 1 / 3</div>
+        <div id="progress-bar"></div>
+    </div>
+
+    <!-- Question -->
+    <div class="quiz-outer-container">
+        <div id="quiz-container">
+        </div>
+        <button id="next-btn" class="next-btn">Next</button>
+        <button id="submit-btn" class="submit-btn" style="display: none;">Submit</button>
+        <div id="results"></div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="js/courseQuiz.js"></script> 
+    <script src="./js/navbar-auth.js"></script> 
+    <script src="./js/footer.js"></script>
+</body>
+</html>

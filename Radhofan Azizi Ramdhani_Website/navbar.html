@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- <link rel="stylesheet" href="lib/boxicons/boxicons.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+</head>
+<body class="navbar-body">
+    <nav class="navbar-nav">
+        <div class="navbar">
+            <!-- Logo Placeholder -->
+            <a  href="homepage.html">
+                <img class="navbar-logo" src="assets/WEB5.0.png" alt="Logo">
+            </a>
+
+            <!-- Navbar Items -->
+            <ul class="navbar-items">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="roadmaps.html">Roadmaps</a></li>
+                <li><a href="courseCategory.html">Courses</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+
+            <!-- Login and Sign Up Buttons -->
+            <div class="navbar-auth-buttons">
+                <a href="login.html" class="navbar-login-btn">Login</a>
+                <a href="signup.html" class="navbar-signup-btn">Sign Up</a>
+            </div>
+            
+            <!-- Profile Section -->
+            <div class="navbar-profile">
+                <a href="#" class="navbar-profile-icon" id="profile-icon">
+                    <img src="assets/people4.jpg" alt="Profile Image" class="navbar-profile-img">
+                </a>
+                <div class="profile-dropdown" id="profile-dropdown" style="display:none;">
+                    <div class="profile-dropdown-item">
+                        <i class='bx bxs-user'></i>
+                        <a href="profile.html">Profile</a>
+                    </div>
+                    <a href="#" id="navbar-logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="./js/navbar-auth.js"></script>
+</body>
+</html>

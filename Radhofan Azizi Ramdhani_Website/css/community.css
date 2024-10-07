@@ -1,0 +1,148 @@
+/* Container and Title */
+.community-container {
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to bottom, #e7d392 0%, #ffffff 15%, #ffffff 100%); 
+}
+
+.community-upper {
+    height: 10vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 2rem; 
+    padding: 50px;
+}
+
+.community-upper-title{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.community-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.community-title-text{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Stories */
+.community-stories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-stories-card{
+    background-color: #f1f1f1; 
+    box-shadow: 
+        10px 10px 0px 0px white, 
+        10px 10px 0px 0px black; 
+    text-align: center;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: 90%; 
+    height: 100%; 
+    border: 1px solid black; 
+    padding: 10px;
+    overflow: auto;
+}
+
+.community-stories-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 
+        15px 15px 0px 0px black, 
+        15px 15px 0px 0px black; 
+}
+
+.pricing-card-image-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-card-image {
+    height: 40%;
+    width: 30%;
+    object-fit: cover; 
+    border: 1px solid black;
+}
+
+.pricing-card-image-title h3{
+    margin: 10px;
+    text-align: left;
+}
+
+.pricing-card-content p{
+    text-align: left;
+}
+
+/* Forum */
+.community-forum{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.community-forum-content{
+    background-color: #f1f1f1; 
+    text-align: left;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: 80%; 
+    height: fit-content; 
+    border-left: 5px solid black; 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    border-right: 1px solid black; 
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.community-forum-content:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-profile-image {
+    width: 40px;  
+    height: 40px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+
+.forum-question {
+    margin: 10px 0;
+}
+
+.question-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.forum-details {
+    font-size: 0.9rem;
+    color: #555;
+}

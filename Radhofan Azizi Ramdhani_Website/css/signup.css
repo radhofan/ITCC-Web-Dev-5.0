@@ -1,0 +1,101 @@
+.signup-container{
+    background-image:  url('../assets/b.jpg');
+    height: 100vh;
+    background-size: contain;
+}
+
+.signup-form {
+    max-width: 30%; 
+    margin: 5% auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 
+    10px 10px 0px 0px white, 
+    10px 10px 0px 0px black; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 1px solid black;
+}
+
+.signup-form:hover {
+    transform: scale(1.05); 
+    box-shadow: 
+        15px 15px 0px 0px black,
+        15px 15px 0px 0px black; 
+}
+
+.signup-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.signup-username,
+.signup-password,
+.signup-email {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.signup-have-account {
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup-have-account:hover {
+    color: #0056b3;
+}
+
+.signup-submit-btn {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.signup-submit-btn:hover {
+    background-color: #218838;
+}
+
+.signup-alternative-text {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+
+.signup-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.signup-option-img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.signup-option-img:hover {
+    transform: scale(1.1);
+}

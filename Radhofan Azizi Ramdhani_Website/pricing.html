@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+</head>
+<body class="navbar-body">
+
+    <div id="navbar"></div>
+
+    <!-- Container -->
+    <div class="pricing-outer-container">
+
+    <div class="pricing-title-container">
+        <div class="pricing-title">Choose a Plan that Fits your Needs</div>
+    </div>
+
+    <div class="pricing-type">
+        <div class="pricing-tab active" onclick="goToSlide(0)">Individuals</div>
+        <div class="pricing-tab" onclick="goToSlide(1)">Students</div>
+        <div class="pricing-tab" onclick="goToSlide(2)">Businesses</div>
+    </div>
+
+    <div class="custom-slider swiper">
+        <div class="custom-wrapper swiper-wrapper">
+            
+            <!-- Individuals Section -->
+            <div class="custom-slide swiper-slide">
+                <div class="pricing-page">
+                    <div class="pricing-container">
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Basic Individual Plan</h3>
+                                <p>Perfect for individuals starting out with basic features and limited support.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Standard Individual Plan</h3>
+                                <p>Includes advanced features for individuals who need more control and flexibility.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Premium Individual Plan</h3>
+                                <p>Complete feature set with priority support for individuals who need everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Students Section -->
+            <div class="custom-slide swiper-slide">
+                <div class="pricing-page">
+                    <div class="pricing-container">
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Basic Student Plan</h3>
+                                <p>A budget-friendly option for students looking for essential tools and resources.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Advanced Student Plan</h3>
+                                <p>Offers additional tools and support for students working on larger projects.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Pro Student Plan</h3>
+                                <p>Comprehensive package for students needing advanced tools and dedicated support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Businesses Section -->
+            <div class="custom-slide swiper-slide">
+                <div class="pricing-page">
+                    <div class="pricing-container">
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Startup Business Plan</h3>
+                                <p>Designed for small businesses to get started with essential tools and minimal cost.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Growth Business Plan</h3>
+                                <p>Offers a full suite of tools for growing businesses looking to scale efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-card-content">
+                                <h3>Enterprise Business Plan</h3>
+                                <p>Complete package with premium features and top-tier support for large enterprises.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+    <script src="js/navbar-auth.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/pricing.js"></script>
+</body>
+</html>

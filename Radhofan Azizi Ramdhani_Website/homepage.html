@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css\navbar.css">
+    <link rel="stylesheet" href="css\homepage.css"> 
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+</head>
+<body class="navbar-body">
+    <div id="navbar"></div>
+
+    <!-- Title Section -->
+    <div class="homepage-title">
+        <div class="homepage-slogan-container">
+            <div class="homepage-slogan" id="typing-effect1"></div>
+            <div class="homepage-slogan-option">
+                <div class="homepage-slogan-option-container homepage-swiper-container">
+                    <div class="swiper-wrapper homepage-swiper-wrapper">
+                        <div class="swiper-slide homepage-swiper-slide homepage-slogan-option-text" data-target="roadmap">Jelajahi Roadmap</div>
+                        <div class="swiper-slide homepage-swiper-slide homepage-slogan-option-text" data-target="courses">Lihat Kursus</div>
+                        <div class="swiper-slide homepage-swiper-slide homepage-slogan-option-text" data-target="stories">Stories</div>
+                        <div class="swiper-slide homepage-swiper-slide homepage-slogan-option-text" data-target="community">Komunitas</div>
+                    </div>
+                </div>
+                <img class="homepage-image" src="assets/5248953.jpg" alt="Logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Courses Section -->
+    <div class="homepage-what-is-this" id="courses">
+        <div class="homepage-works-text">Jelajahi Kursus Terbaik</div>
+        <div class="homepage-what-is-this-sample">
+            <a href="courseDetail.html">
+                <div class="homepage-what-is-this-card">
+                    <img src="assets/programmingA.jpeg" alt="Gambar Kursus" class="card-image">
+                    <div class="card-content">
+                        <h3>HTML Dasar</h3>
+                        <p>Pelajari struktur dasar halaman web dan cara membuat konten yang menarik.</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="courseDetail.html">
+                <div class="homepage-what-is-this-card">
+                    <img src="assets/programmingB.jpeg" alt="Gambar Kursus" class="card-image">
+                    <div class="card-content">
+                        <h3>PHP untuk Pemula</h3>
+                        <p>Pelajari cara mengembangkan aplikasi web dinamis menggunakan PHP.</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="courseDetail.html">
+                <div class="homepage-what-is-this-card">
+                    <img src="assets/programmingC.jpeg" alt="Gambar Kursus" class="card-image">
+                    <div class="card-content">
+                        <h3>Node.js Fundamentals</h3>
+                        <p>Temukan cara membangun aplikasi backend yang cepat dan efisien dengan Node.js.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="homepage-worksExplore-text">Lihat Semua Kursus</div>
+    </div>
+
+    <!-- Roadmaps Section -->
+    <div class="homepage-how-it-works" id="roadmap">
+        <div class="homepage-overlay"></div>
+        <div class="homepage-content">
+            <div class="homepage-works-text">Pilih Roadmap Anda</div>
+            <div class="homepage-sample-roadmaps">
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 1</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 2</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 3</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 4</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 5</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 6</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 7</div>
+                </a>
+                <a href="roadmap.html">
+                    <div class="card">Roadmap 8</div>
+                </a>                
+            </div>
+            <a href="roadmaps.html">
+                <div class="homepage-worksExplore-text">Explore all Roadmaps</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Stories Section -->
+    <div class="homepage-stories" id="stories">
+        <h2 class="stories-title">Learner Stories</h2>
+        <div class="stories-container">
+            <div class="story-card">
+                <div class="story-image-container">
+                    <img src="assets/people2.jpg" alt="Learner Image" class="story-image">
+                </div>
+                <div class="story-text">
+                    <h3>Jane Doe</h3>
+                    <p>"Thanks to the platform, I was able to transition into a new career in tech. The courses were comprehensive and engaging."</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-image-container">
+                    <img src="assets/people1.jpg" alt="Learner Image" class="story-image">
+                </div>
+                <div class="story-text">
+                    <h3>John Smith</h3>
+                    <p>"The hands-on projects and clear explanations helped me build a solid foundation in programming. Highly recommend!"</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-image-container">
+                    <img src="assets/people3.jpg" alt="Learner Image" class="story-image">
+                </div>
+                <div class="story-text">
+                    <h3>Emily Johnson</h3>
+                    <p>"A fantastic learning experience! The community and support were invaluable as I worked through the courses."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="./js/homepage.js"></script> 
+    <script src="./js/navbar-auth.js"></script> 
+    <script src="./js/footer.js"></script>
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>

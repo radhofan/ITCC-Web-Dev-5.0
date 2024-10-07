@@ -1,0 +1,77 @@
+.login-container{
+    height: 100vh;
+    border: 1px solid transparent;
+    background-image:  url('../assets/b.jpg');
+    background-size: contain;
+}
+
+.login-form {
+    max-width: 30%; 
+    margin: 5% auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 
+    10px 10px 0px 0px white, 
+    10px 10px 0px 0px black; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 1px solid black;
+}
+
+.login-form:hover {
+    transform: scale(1.05); 
+    box-shadow: 
+        15px 15px 0px 0px black, 
+        15px 15px 0px 0px black; 
+}
+
+
+.login-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.login-username,
+.login-password {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.login-forgot-password {
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-forgot-password:hover {
+    color: #0056b3;
+}
+
+.login-submit-btn {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.login-submit-btn:hover {
+    background-color: #0056b3;
+}
+
